@@ -42,7 +42,7 @@ def model_train(X, y):
     model.add(Dense(512))
     model.add(Activation('relu'))
     model.add(Dropout(0.5))
-    #crow, boar, monkey なので 3
+    #charzaku, kyuzaku, zaku2 なので 3
     model.add(Dense(3))
     model.add(Activation('softmax'))
 
